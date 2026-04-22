@@ -23,6 +23,6 @@ app.use('/api/voice', voiceRoutes);
 
 connectMongo().finally(() => {
   app.listen(PORT, () => {
-    console.log(`Backend running on http://localhost:${PORT}`);
+    console.log(`Backend is running`);
   });
 });
